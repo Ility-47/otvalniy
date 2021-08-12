@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <title>Форма регистрации</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../otval/assets/registr.css">
+<body>
+    <div class="registr">
+        <div class="registr__title">Регистрация</div>
+        <div class="registr__subtitle">Если у вас есть аккаунт <a href="#" style="text-decoration: none; color: palevioletred;">войдите</a></div>
+        <!--<div class="registr__email">-->
+            <label for="email"><b>Email</b></label>
+            <input class="registr__email" type="text" placeholder="Введите вашу почту" name="email" required>
+        <!--</div>-->
+
+        <div class="registr__pass">
+            <label for="psw"><b>Пароль</b></label>
+            <input type="password" placeholder="Введите пароль" name="psw" required>
+        </div>
+
+        <div class="registr__pass2">
+            <label for="psw-repeat"><b>Повторить пароль</b></label>
+            <input type="password" placeholder="Повторите пароль" name="psw-repeat" required>
+        </div>
+        <div class="registr__save">
+            <label>
+                <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Запомнить меня
+            </label>
+        </div>
+        <div class="registr__button">
+            <div class="registr__cancel">
+                <button type="button" class="cancelbtn">Отменить</button>
+            </div>
+            <div class="registr__reg">
+                <button type="submit" class="signupbtn">Регистрация</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
